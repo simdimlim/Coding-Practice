@@ -20,7 +20,7 @@ expected worst-case time complexity is O(log(N));
 expected worst-case space complexity is O(1).
 **/
 
-class Solution {
+class BinaryGap {
     public int solution(int N) {
         int numBits = (int) Math.floor((Math.log(N)/Math.log(2))+1);
         int tempGap = 0;
